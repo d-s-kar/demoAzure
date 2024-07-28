@@ -13,6 +13,6 @@ public class UseerController {
 
     @GetMapping("/getDetails")
     public String getDetails() {
-        return "Ds karki Uttarakhand";
+        return "Ds karki Uttarakhand welcome";
     }
 }
