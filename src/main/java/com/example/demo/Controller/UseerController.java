@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UseerController {
 
-    @GetMapping("/getName")
+    @GetMapping("/")
     public String getName() {
         return "Welcome to azure deployment";
     }
