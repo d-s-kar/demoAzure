@@ -10,4 +10,9 @@ public class UseerController {
     public String getName() {
         return "Welcome to azure deployment";
     }
+
+    @GetMapping("/getDetails")
+    public String getDetails() {
+        return "Ds karki Uttarakhand";
+    }
 }
